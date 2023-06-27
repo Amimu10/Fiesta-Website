@@ -1,0 +1,438 @@
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --red-color: #8C181A;
+    --white-color: #F3EAEA;
+    --dark-color: #2C0E0E;
+
+}
+
+body {
+    font-family: 'Germania One', cursive;
+    /* font-family: 'Roboto', sans-serif; */
+
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-family: Germania One;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: 0em;
+    transition: all .3s;
+
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header .container {
+    max-width: 1376px;
+    padding: 0 32px;
+}
+
+h1 {
+    font-family: 'Germania One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 87.4076px;
+    line-height: 1.15;
+    text-align: center;
+    color: #F3EAEA;
+}
+
+h2 {
+    font-family: 'Germania One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 49.4135px;
+    line-height: 1.33;
+    text-align: center;
+    color: #2C0E0E;
+}
+
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 1.3;
+    text-align: center;
+    color: #F3EAEA;
+}
+
+/* .my-btn {
+
+    position: absolute;
+} */
+
+a.my-btn {
+    position: relative;
+    padding: 12px 16px 12px 44px;
+    font-weight: 500;
+    gap: 4px;
+    width: 191px;
+    height: 48px;
+    color: var(--red-color);
+    background-image: url(../images/banner/Delivery.png);
+    background-repeat: no-repeat;
+    background-position: left 16px center;
+    background-color: var(--white-color);
+    margin-right: 12px;
+}
+
+.menu-btn {
+    justify-content: center;
+    align-items: center;
+    padding: 11px 16px;
+    margin-right: inherit;
+    width: 143px;
+    height: 48px;
+    color: var(--white-color);
+    border: 1px solid #F3EAEA
+}
+
+.home-banner-btn {
+    gap: 12px;
+}
+
+section {
+    max-width: 1440px;
+}
+
+/* ================
+     header start
+==================*/
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 32px;
+    background: #8C181A;
+}
+
+.header .container {
+    max-width: 1376px;
+}
+
+.logo img {
+    max-width: 170px;
+}
+
+.main-menu ul {
+    margin-left: 12px;
+}
+
+
+.main-menu ul li {
+    display: inline-block;
+    margin-right: 36px;
+}
+
+.main-menu ul li a {
+    color: #F3EAEA;
+}
+
+.contact-btn a {
+    color: #F3EAEA;
+}
+
+.contact-btn img {
+    padding-bottom: 3px;
+}
+
+
+/* ================
+     banner start
+==================*/
+.banner {
+    background: #8C181A;
+    padding-top: 133px;
+}
+
+.home-banner-top {}
+
+.banner h1 {
+    max-width: 692px;
+    margin: 0 auto 14px;
+}
+
+.banner-bottom {
+    background: url(../images/banner/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-bottom: 20%;
+}
+
+.banner p,
+.fiesta-grill-head p {
+    max-width: 403px;
+    margin: 0 auto 42px;
+}
+
+.banner-btn-group {
+    gap: 16px;
+}
+
+/* ====================
+    POPULAR-DISH  start
+========================*/
+.popular-dish {
+    margin-top: -40px;
+    background: var(--red-color);
+}
+
+.popular-dish-content {
+    padding: 40px 48px 58px;
+    height: auto;
+    background: #F3EAEA;
+    border-radius: 24px;
+}
+
+.popular-dish .container {
+    max-width: 1376px;
+}
+
+.cards {
+    background-image: url(../images/dish/dish-item.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: calc(100% - 117px) 39px 48px;
+    border-radius: 55px;
+    color: var(--white-color);
+    margin-top: 24px;
+}
+
+/* ====================
+    fiesta-grill start
+=======================*/
+.fiesta-grill {
+    background: var(--red-color);
+    padding-top: 102px;
+}
+
+.fiesta-grill-head h2 {
+
+    color: var(--white-color);
+}
+
+.fiesta-grill-head p {
+    margin-top: 25px;
+}
+
+.fiesta-grill .btn-group {
+    margin-top: -12px;
+    margin-bottom: 154px;
+}
+
+.fiesta-grill img {
+    width: Fill (1, 440px);
+}
+
+/* ====================
+       info start
+=======================*/
+.info {
+    background: var(--white-color);
+}
+
+.info-list {
+    background-color: var(--red-color);
+    padding: 55px;
+    box-shadow: 0px 16px 24px 0px rgba(43, 36, 36, 0.25);
+    border-radius: 55px;
+    margin-bottom: 100px;
+
+}
+
+.info .container {
+    max-width: 1280px;
+}
+
+.info-list ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.info-list ul li a {
+    font-family: 'Germania One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--white-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info-list ul li a span {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 26px;
+    gap: 8px;
+    width: 76px;
+    height: 76px;
+    background: #F3EAEA;
+    box-shadow: 0px 16px 24px rgba(43, 36, 36, 0.25);
+    border-radius: 24px;
+    margin-right: 16px;
+}
+
+
+/* ====================
+       contact start
+=======================*/
+.contact {
+    max-width: 900px;
+    margin: 0 auto;
+
+
+}
+
+.contact h2 {
+    text-align: left;
+
+}
+
+.contact-btn-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: end;
+    gap: 16px;
+}
+
+.contact-btn-group a.menu-btn {
+    color: var(--red-color);
+    border: 1px solid #8C181A;
+}
+
+.contact-btn-group a.order-btn {
+    background: #8C181A;
+    background-image: url(../images/contact/btn-icon.png);
+    background-repeat: no-repeat;
+    color: var(--white-color);
+    /* padding: 12px 16px; */
+    padding: 12px 16px 12px 44px;
+    gap: 4px;
+    background-position: left 16px center;
+    margin-right: 12px;
+   
+    
+
+}
+
+.contact-btn-group a:hover {
+    background-color: var(--dark-color);
+    color: var(--white-color);
+}
+
+/* ====================
+       footer start
+=======================*/
+.footer {
+    padding: 30px 0;
+
+}
+
+.footer .container {
+    max-width: 1280px;
+
+
+
+}
+
+.footer-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* padding-left: 45px; */
+
+
+}
+
+.footer-nav ul li{
+   margin-right: 32px;
+}
+
+.footer-nav ul li,
+.social ul li {
+    display: inline-block;
+}
+
+.footer-menu li {
+    margin-right: 25px;
+}
+
+.social li:not(li:last-child) {
+    margin-right: 6px;
+}
+
+.footer-nav ul li a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2C0E0E;
+}
+.footer-nav ul li a:hover {
+    color: var(--red-color);
+}
+
+.social li {
+    padding: 3px;
+    font-weight: 500;
+    -webkit-filter: brightness(0.1);
+    filter: brightness(0.1);
+  
+}
+
+.social i{
+    color: #8C181A;
+}
+.copyright-text p {
+    margin-top: 45px;
+    padding-left: 180px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2C0E0E;
+}
